@@ -1,0 +1,19 @@
+<aside id="tags">
+  <ul>
+    <li ng-repeat="tag in tags" ng-class="{'active': tag.name == 'any'}" style="background-image: url('{{tag.icon}}')" ng-click="q = tag.name"></li>
+  </ul>
+</aside>
+
+<main id="grid">
+  <div class="project-wrapper" ng-repeat="project in projects | filter:q as results">
+    <div class="project-card" style="background-color: {{project.color}};">
+      <div class="project-card-header"></div>
+      <div class="project-card-footer">
+        <strong>{{project.name}}</strong>
+        <p>
+          {{project.description}}
+        </p>
+      </div>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "sytabs",
+    "color": "#ABCBD6",
+    "description": "syTabs is a simple and lightweight AngularJs tab directive working with Bootstrap.",
+    "tags": ["angular"]
+  },
+  {
+    "name": "colcon",
+    "color": "#7BC1A1",
+    "description": "A simple to use color code converter. Supports RGB and HEX color formats.",
+    "tags": ["node", "cli"]
+  },
+  {
+    "name": "ng-mdl",
+    "color": "#2A70E8",
+    "description": "An Angular wrapper for Material Design Lite",
+    "tags": ["angular"]
+  },
+  {
+    "name": "electron-data",
+    "color": "#CE483D",
+    "description": "An easy way to save data, settings or anything else as JSON file in an application folder, using a simple localStorage-like API.",
+    "tags": ["electron", "node"]
+  }
+]
